@@ -99,52 +99,27 @@
             </div>
         </section>
 
-        <!-- Detailed Services -->
-        <section class="py-20 bg-gray-50">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Detailed Services
-                    </h2>
-                    <p class="text-xl text-gray-600">
-                        Comprehensive solutions tailored to your specific needs
-                    </p>
+        <!-- CTA Section -->
+        <section class="py-20 bg-blue-600">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                    Ready to Transform Your Business?
+                </h2>
+                <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
+                    Let's discuss your project and see how TechStart can help you achieve your technology goals.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact" class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-50 transition-colors shadow-lg">
+                        Get Free Consultation
+                    </a>
+                    <a href="/get-started" class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-white hover:text-blue-600 transition-colors">
+                        View Our Process
+                    </a>
                 </div>
+            </div>
+        </section>
+    </main>
 
-                <div class="grid lg:grid-cols-2 gap-8">
-                    <!-- Web Development -->
-                    <div class="bg-white rounded-2xl p-8 shadow-sm">
-                        <div class="flex items-start">
-                            <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mr-6">
-                                <svg class="w-6 h-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
-                                </svg>
-                            </div>
-                            <div class="flex-1">
-                                <h3 class="text-xl font-semibold text-gray-900 mb-3">Web Development</h3>
-                                <p class="text-gray-600 mb-4">
-                                    Modern, responsive websites and web applications built with the latest technologies.
-                                </p>
-                                <ul class="space-y-2 text-gray-600">
-                                    <li class="flex items-center">
-                                        <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                        </svg>
-                                        React, Vue.js, Angular applications
-                                    </li>
-                                    <li class="flex items-center">
-                                        <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                        </svg>
-                                        Laravel, Node.js, Python backends
-                                    </li>
-                                    <li class="flex items-center">
-                                        <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                        </svg>
-                                        Progressive Web Apps (PWA)
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    @include('components.footer')
+</body>
+</html>
